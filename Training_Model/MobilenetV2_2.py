@@ -31,8 +31,8 @@ transform=transforms.Compose([
 ])
 
 # FER2013 dataset
-train_dir= '/media/bennettpc/fe11dcbb-f25e-4ef7-83dc-f1876b222064/SHREYA/Face_Emotion_Analysis/DATA/FER_train'
-test_dir='/media/bennettpc/fe11dcbb-f25e-4ef7-83dc-f1876b222064/SHREYA/Face_Emotion_Analysis/DATA/FER_test'
+train_dir= 'training_path'
+test_dir='testing_path'
 
 train_fer=ImageFolder(root=train_dir,transform=transform)
 test_fer=ImageFolder(root=test_dir,transform=transform)

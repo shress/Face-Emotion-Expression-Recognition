@@ -111,7 +111,7 @@ with torch.no_grad():
     
 
 
-# Iterating through EMOTIC test dataset
+# Iterating through FER2013plus test dataset
 with torch.no_grad():
     correct=0
     total=0
